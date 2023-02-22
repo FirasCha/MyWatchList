@@ -3,6 +3,9 @@ import sex_education from "../assets/sex_education.jpg"
 import wednesday from "../assets/wednesday.jpg"
 import breaking_bad from "../assets/breaking_bad.jpg"
 import fate_the_winx_saga from "../assets/fate_the_winx_saga.jpg"
+import alice_in_borderland from "../assets/alice_in_borderland.jpg"
+import ginny_and_georgia from "../assets/ginny_and_georgia.jpg"
+import you from "../assets/You.jpg"
 const CardTvShowData = [
     {
         img : manifest,
@@ -39,6 +42,26 @@ const CardTvShowData = [
         max_season : "2 seasons",
         new_season : "MAYBE",
      },
-     
+     {
+        img : alice_in_borderland,
+        title : "Alice in borderland",
+        progress : "Finished ", 
+        max_season : "2 seasons",
+        new_season : "NOPE",
+     },
+     {
+        img : ginny_and_georgia,
+        title : "Ginny & Georgia",
+        progress : "S1 / EP4", 
+        max_season : "2 seasons",
+        new_season : "NOPE",
+     },
+     {
+        img : you,
+        title : "You",
+        progress : "S3", 
+        max_season : "4 seasons",
+        new_season : "Part 2 of 4th season",
+     },
 ];
 export default CardTvShowData;
