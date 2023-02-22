@@ -22,3 +22,19 @@ code {
 .card-image{
   width: 249px;
 }
+
+.card-title, 
+.desciption{
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.desciption{
+  font-size: 12px;
+}
