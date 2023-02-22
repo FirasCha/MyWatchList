@@ -11,9 +11,9 @@ const CardTvShow = (props) => {
                         </div>
                         <div>
                             <p className='card-title'>{value.title}</p>
-                            <p className='desciption'>{value.progress}</p>
-                            <p className='desciption'>{value.max_season}</p>
-                            <p className='desciption'>{value.new_season}</p>
+                            <p className='desciption'>My progress : {value.progress}</p>
+                            <p className='desciption'>Seasons : {value.max_season}</p>
+                            <p className='desciption'>New seasons : {value.new_season}</p>
                         </div>
                     </div>
                 )
