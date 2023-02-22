@@ -1,8 +1,12 @@
 import React from 'react'
+import CardTvShowData from './CardTvShowData'
+import CardTvShow from './CardTvShow'
 
 const MenuOfWatchList = () => {
   return (
-    <div>MenuOfWatchList</div>
+    <div className='home-cards'>
+        <CardTvShow details={CardTvShowData}/>
+    </div>
   )
 }
 

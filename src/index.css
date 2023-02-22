@@ -38,3 +38,13 @@ code {
 .desciption{
   font-size: 12px;
 }
+
+.home-cards{
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.home-cards > .card{
+  display: inline-block;
+} 
