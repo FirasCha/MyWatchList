@@ -6,6 +6,8 @@ import fate_the_winx_saga from "../assets/fate_the_winx_saga.jpg"
 import alice_in_borderland from "../assets/alice_in_borderland.jpg"
 import ginny_and_georgia from "../assets/ginny_and_georgia.jpg"
 import you from "../assets/You.jpg"
+import dark from "../assets/Dark.jpg"
+import lucifer from "../assets/Lucifer.jpg"
 const CardTvShowData = [
     {
         img : manifest,
@@ -63,5 +65,19 @@ const CardTvShowData = [
         max_season : "4 seasons",
         new_season : "Part 2 of 4th season",
      },
+     {
+      img : dark,
+      title : "Dark",
+      progress : "S3", 
+      max_season : "3 seasons",
+      new_season : "NOPE",
+      },
+      {
+         img : lucifer,
+         title : "Lucifer",
+         progress : "S6", 
+         max_season : "6 seasons",
+         new_season : "NOPE",
+      },
 ];
 export default CardTvShowData;
