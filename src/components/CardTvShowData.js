@@ -8,6 +8,9 @@ import ginny_and_georgia from "../assets/ginny_and_georgia.jpg"
 import you from "../assets/You.jpg"
 import dark from "../assets/Dark.jpg"
 import lucifer from "../assets/Lucifer.jpg"
+import suits from "../assets/Suits.jpg"
+import the_queens_gambit from "../assets/The_Queens_Gambit.jpeg"
+import the_witcher from "../assets/The_witcher.jpg"
 const CardTvShowData = [
     {
         img : manifest,
@@ -78,6 +81,27 @@ const CardTvShowData = [
          progress : "S6", 
          max_season : "6 seasons",
          new_season : "NOPE",
+      },
+      {
+         img : suits,
+         title : "Lucifer",
+         progress : "S9", 
+         max_season : "9 seasons",
+         new_season : "NOPE",
+      },
+      {
+         img : the_queens_gambit,
+         title : "The Queens Gambit",
+         progress : "S1", 
+         max_season : "1 season",
+         new_season : "MAYBE",
+      },
+      {
+         img : the_witcher,
+         title : "The witcher",
+         progress : "S2", 
+         max_season : "2 seasons",
+         new_season : "MAYBE",
       },
 ];
 export default CardTvShowData;
