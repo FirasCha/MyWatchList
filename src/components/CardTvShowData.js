@@ -12,6 +12,9 @@ import suits from "../assets/Suits.jpg"
 import the_queens_gambit from "../assets/The_Queens_Gambit.jpeg"
 import the_witcher from "../assets/The_witcher.jpg"
 import game_of_thrones from "../assets/game_of_thrones.jpeg"
+import the_imperfects from "../assets/the_imperfects.jpg"
+import squid_game from "../assets/squid_game.jpg"
+import locke_and_key from "../assets/locke_and_key.jpg"
 const CardTvShowData = [
     {
         img : manifest,
@@ -72,44 +75,66 @@ const CardTvShowData = [
      {
       img : dark,
       title : "Dark",
-      progress : "S3", 
+      progress : "Finished", 
       max_season : "3 seasons",
       new_season : "NOPE",
       },
       {
          img : lucifer,
          title : "Lucifer",
-         progress : "S6", 
+         progress : "Finished", 
          max_season : "6 seasons",
          new_season : "NOPE",
       },
       {
          img : suits,
-         title : "Lucifer",
-         progress : "S9", 
+         title : "Suites",
+         progress : "Finished", 
          max_season : "9 seasons",
          new_season : "NOPE",
       },
       {
          img : the_queens_gambit,
          title : "The Queens Gambit",
-         progress : "S1", 
+         progress : "Finished", 
          max_season : "1 season",
          new_season : "MAYBE",
       },
       {
          img : the_witcher,
          title : "The witcher",
-         progress : "S2", 
+         progress : "Finished", 
          max_season : "2 seasons",
          new_season : "MAYBE",
       },
       {
          img : game_of_thrones,
          title : "Game Of Thrones",
-         progress : "S8", 
+         progress : "Finished", 
          max_season : "8 seasons",
          new_season : "NOPE",
       },
+      {
+         img : the_imperfects,
+         title : "The Imperfects",
+         progress : "Finished", 
+         max_season : "1 season",
+         new_season : "NOT YET",
+      },
+      {
+         img : squid_game,
+         title : "Squid Game",
+         progress : "Finished", 
+         max_season : "1 season",
+         new_season : "SOON",
+      },
+      {
+         img : locke_and_key,
+         title : "Locke And Key",
+         progress : "Finished", 
+         max_season : "3 seasons",
+         new_season : "NOPE",
+      },
+      //Outer banks
 ];
 export default CardTvShowData;
