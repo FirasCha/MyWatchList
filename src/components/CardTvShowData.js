@@ -11,6 +11,7 @@ import lucifer from "../assets/Lucifer.jpg"
 import suits from "../assets/Suits.jpg"
 import the_queens_gambit from "../assets/The_Queens_Gambit.jpeg"
 import the_witcher from "../assets/The_witcher.jpg"
+import game_of_thrones from "../assets/game_of_thrones.jpeg"
 const CardTvShowData = [
     {
         img : manifest,
@@ -102,6 +103,13 @@ const CardTvShowData = [
          progress : "S2", 
          max_season : "2 seasons",
          new_season : "MAYBE",
+      },
+      {
+         img : game_of_thrones,
+         title : "Game Of Thrones",
+         progress : "S8", 
+         max_season : "8 seasons",
+         new_season : "NOPE",
       },
 ];
 export default CardTvShowData;
