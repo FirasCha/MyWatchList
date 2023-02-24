@@ -13,7 +13,9 @@ const CardTvShow = () => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleShow = () => {
+        setShow(true);
+    }
   return (
     <section className='capy-4 container'>
     <div style={{textAlign:'center'}} className='row justify-content-center'>
@@ -27,29 +29,23 @@ const CardTvShow = () => {
                             <p className='card-text'>My progress : {item.progress}</p>
                             <p className='card-text'>Seasons : {item.max_season}</p>
                             <p className='card-text'>New seasons : {item.new_season}</p>
-                            <Button variant="primary" onClick={handleShow}>
-                                Launch static backdrop modal
+                            <Button variant="outline-dark" onClick={handleShow}>
+                                More Details
                             </Button>
                             <Modal
-        show={show}
-        onHide={handleClose}
-        backdrop="static"
-        keyboard={false}
-      >
-        <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          I will not close if you click outside me. Don't even try to press
-          escape key.
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary">Understood</Button>
-        </Modal.Footer>
-      </Modal>
+                                show={show}
+                                onHide={handleClose}
+                                backdrop="static"
+                                keyboard={true}
+                                centered={true}
+                                >
+                                <Modal.Header closeButton>
+                                    <Modal.Title>{item.title}</Modal.Title>
+                                </Modal.Header>
+                                <Modal.Body>
+                                    {item.title}
+                                </Modal.Body>
+                            </Modal>
                         </div>
                     </div>
                     
