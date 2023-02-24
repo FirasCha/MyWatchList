@@ -1,17 +1,19 @@
 import React, { useState } from 'react'
+import dataTvShow from './CardTvShowData'
 
-const CardTvShow = (props) => {
+const CardTvShow = () => {
     const [ noOfElement, setnoOfElement ] = useState(7);
     const loadMore = () => {
         setnoOfElement(noOfElement+5);
     }
-    const slice = props.details.slice(0,noOfElement);
+    const slice = dataTvShow.slice(0,noOfElement);
+    console.log(dataTvShow)
   return (
     <section className='capy-4 container'>
     <div style={{textAlign:'center'}} className='row justify-content-center'>
         {slice.map((item,index)=>{
             return(
-                <div className='col-11 col-md-6 col-lg-3 mx-0 mb-5'>
+                <div className='col-11 col-md-6 col-lg-3 mx-0 mb-5' key={index}>
                     <div className='card p-0 overflow-hidden h-100 shadow'>
                         <img src={item.img} className='card-img-top'/>
                         <div className='card-body'>

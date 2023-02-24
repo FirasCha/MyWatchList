@@ -1,10 +1,9 @@
 const CardMovieData = [
     {
         //img : manifest,
-        title : "Manifest",
-        progress : "Finished", 
-        max_season : "4 seasons",
-        new_season : "2 Juin",
+        title : "Trough my window",
+        max_season : "1 seasons",
+        //duration
      },
      
 ];
