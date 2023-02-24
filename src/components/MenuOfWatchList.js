@@ -7,8 +7,9 @@ const MenuOfWatchList = () => {
   return (
     <div className='home-cards'>
         <CardTvShow details={CardTvShowData}/>
-        <CardMovie/>
+        <CardMovie details={CardTvShowData}/>
     </div>
+    
   )
 }
 

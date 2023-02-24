@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import MenuOfWatchList from './components/MenuOfWatchList';
 
 function App() {
