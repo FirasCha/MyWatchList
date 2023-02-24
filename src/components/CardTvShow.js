@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const CardTvShow = (props) => {
+    const [ noOfElement, setnoOfElement ] = useState(7);
+    const slice = props.details.slice(0,noOfElement);
   return (
     <>
         {
-            props.details.map( (value,index) => (
+            slice.map( (value,index) => (
                     <div className='card' key={index}>
                         <div className='card-image'>
                             <img style={{height:"141px"}} src={value.img}/>
