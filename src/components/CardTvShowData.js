@@ -19,9 +19,9 @@ const CardTvShowData = [
     {
         img : manifest,
         title : "Manifest",
-        progress : "S4", 
+        progress : "Finished", 
         max_season : "4 seasons",
-        new_season : "Not Yet",
+        new_season : "2 Juin",
      },
      {
         img : sex_education,
