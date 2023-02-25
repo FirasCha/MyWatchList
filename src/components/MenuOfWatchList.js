@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import FooterWatchList from './FooterWatchList';
 import NavBarMenu from './NavBarMenu';
 
 const MenuOfWatchList = () => {
@@ -12,7 +13,10 @@ const MenuOfWatchList = () => {
     //   <Link to="/tvshow" > TV Shows</Link>
     //   <Link to="/mymovies" > Movies</Link>
     // </div>
-    <NavBarMenu/>                    
+    <>
+      <NavBarMenu/>       
+      <FooterWatchList/>     
+    </>        
   )
 }
 

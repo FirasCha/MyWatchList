@@ -33,7 +33,7 @@ const CardTvShow = () => {
                                     <p className='card-text'>My progress : {item.progress}</p>
                                     <p className='card-text'>Seasons : {item.max_season}</p>
                                     <p className='card-text'>New seasons : {item.new_season}</p>
-                                    <ProgressBar  now={item.progress_value} label={`${item.progress_value}%`}/>
+                                    <ProgressBar animated  now={item.progress_value} label={`${item.progress_value}%`}/>
                                     <br/>
                                     <Button variant="outline-dark" onClick={handleShow}>
                                         More Details

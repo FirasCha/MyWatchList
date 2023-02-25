@@ -24,6 +24,7 @@ const NavBarMenu = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
+                  <Nav.Link href="/" >Menu</Nav.Link>
                   <Nav.Link href="/tvshow" >TV Shows</Nav.Link>
                   <Nav.Link href="/mymovies">Movies</Nav.Link>
                 </Nav>
