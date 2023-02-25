@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import mangaImage from '../assets/MangaFooter.webp'
+import gamesImage from '../assets/GamesFooter.webp'
 import AnimeImage from '../assets/AnimeFooter.png'
 import HomePageImage from '../assets/HomePage.jpg'
 import TvShowImage from '../assets/TvShowFooter.jpeg'
@@ -76,17 +77,19 @@ const FooterWatchList = () => {
                             </a>
                             </div>
                         </Col>
-                        {/* <Col lg='2' md='12' className='mb-4 mb-md-0'>
+                        <Col lg='2' md='12' className='mb-4 mb-md-0'>
                             <div color='light' className='bg-image hover-overlay shadow-1-strong rounded'>
-                            <img src='https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp' className='w-100' />
+                            
                             <a href='#!'>
                             <div
                                 className='mask'
                                 style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
-                            ></div>
+                            >
+                                <img alt='' src={gamesImage} className='w-100' />
+                            </div>
                             </a>
                             </div>
-                        </Col> */}
+                        </Col>
                         
                     </Row>
                 </section>
