@@ -5,6 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 import NavBarMenu from './NavBarMenu';
 
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import FooterWatchList from './FooterWatchList';
 const CardTvShow = () => {
     const [ noOfElement, setnoOfElement ] = useState(7);
     const loadMore = () => {
@@ -65,7 +66,9 @@ const CardTvShow = () => {
                 >
                     Load More
                 </button>
+                <br/>
         </section>
+        <FooterWatchList/> 
     </div>
   )
 }
