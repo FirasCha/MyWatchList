@@ -22,6 +22,8 @@ const CardTvShowData = [
         progress : "Finished", 
         max_season : "4 seasons",
         new_season : "2 Juin",
+        progress_value : "100" ,
+        progress_value : "100" ,
      },
      {
         img : sex_education,
@@ -29,6 +31,7 @@ const CardTvShowData = [
         progress : "Finished ", 
         max_season : "3 seasons",
         new_season : "MAYBE",
+        progress_value : "100" ,
      },
      {
         img : wednesday,
@@ -36,6 +39,7 @@ const CardTvShowData = [
         progress : "Finished ", 
         max_season : "1 season",
         new_season : "MAYBE",
+        progress_value : "100" ,
      },
      {
         img : breaking_bad,
@@ -43,6 +47,7 @@ const CardTvShowData = [
         progress : "Finished ", 
         max_season : "5 seasons",
         new_season : "NOPE",
+        progress_value : "100" ,
      },
      {
         img : fate_the_winx_saga,
@@ -50,6 +55,7 @@ const CardTvShowData = [
         progress : "Finished ", 
         max_season : "2 seasons",
         new_season : "MAYBE",
+        progress_value : "100" ,
      },
      {
         img : alice_in_borderland,
@@ -57,6 +63,7 @@ const CardTvShowData = [
         progress : "Finished ", 
         max_season : "2 seasons",
         new_season : "NOPE",
+        progress_value : "100" ,
      },
      {
         img : ginny_and_georgia,
@@ -64,6 +71,7 @@ const CardTvShowData = [
         progress : "S1 / EP4", 
         max_season : "2 seasons",
         new_season : "NOPE",
+        progress_value : "30" ,
      },
      {
         img : you,
@@ -71,6 +79,7 @@ const CardTvShowData = [
         progress : "S3", 
         max_season : "4 seasons",
         new_season : "Part 2 of 4th season",
+        progress_value : "70" ,
      },
      {
       img : dark,
@@ -78,6 +87,7 @@ const CardTvShowData = [
       progress : "Finished", 
       max_season : "3 seasons",
       new_season : "NOPE",
+      progress_value : "100" ,
       },
       {
          img : lucifer,
@@ -85,6 +95,7 @@ const CardTvShowData = [
          progress : "Finished", 
          max_season : "6 seasons",
          new_season : "NOPE",
+         progress_value : "100" ,
       },
       {
          img : suits,
@@ -92,6 +103,7 @@ const CardTvShowData = [
          progress : "Finished", 
          max_season : "9 seasons",
          new_season : "NOPE",
+         progress_value : "100" ,
       },
       {
          img : the_queens_gambit,
@@ -99,6 +111,7 @@ const CardTvShowData = [
          progress : "Finished", 
          max_season : "1 season",
          new_season : "MAYBE",
+         progress_value : "100" ,
       },
       {
          img : the_witcher,
@@ -106,6 +119,7 @@ const CardTvShowData = [
          progress : "Finished", 
          max_season : "2 seasons",
          new_season : "MAYBE",
+         progress_value : "100" ,
       },
       {
          img : game_of_thrones,
@@ -113,6 +127,7 @@ const CardTvShowData = [
          progress : "Finished", 
          max_season : "8 seasons",
          new_season : "NOPE",
+         progress_value : "100" ,
       },
       {
          img : the_imperfects,
@@ -120,6 +135,7 @@ const CardTvShowData = [
          progress : "Finished", 
          max_season : "1 season",
          new_season : "NOT YET",
+         progress_value : "100" ,
       },
       {
          img : squid_game,
@@ -127,6 +143,7 @@ const CardTvShowData = [
          progress : "Finished", 
          max_season : "1 season",
          new_season : "SOON",
+         progress_value : "100" ,
       },
       {
          img : locke_and_key,
@@ -134,6 +151,7 @@ const CardTvShowData = [
          progress : "Finished", 
          max_season : "3 seasons",
          new_season : "NOPE",
+         progress_value : "100" ,
       },
       //Outer banks
 ];
