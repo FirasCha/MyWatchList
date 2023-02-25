@@ -1,5 +1,10 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import mangaImage from '../assets/MangaFooter.webp'
+import AnimeImage from '../assets/AnimeFooter.png'
+import HomePageImage from '../assets/HomePage.jpg'
+import TvShowImage from '../assets/TvShowFooter.jpeg'
+import MovieImage from '../assets/MovieFooter.jpg'
 
 const FooterWatchList = () => {
     return (
@@ -15,7 +20,7 @@ const FooterWatchList = () => {
                                 className='mask'
                                 style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
                             >
-                                <img src='https://cdn2.hubspot.net/hubfs/53/homepage-web-design.jpg' className='w-100' />
+                                <img alt='main page' src={HomePageImage} className='w-100' />
                             </div>
                             </a>
                             </div>
@@ -27,7 +32,7 @@ const FooterWatchList = () => {
                                 className='mask'
                                 style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
                             >
-                                <img src='https://ggsc.s3.amazonaws.com/images/uploads/Greater_Goodies_TV_2022.jpeg' className='w-100' />
+                                <img alt='' src={TvShowImage} className='w-100' />
                             </div>
                             </a>
                             </div>
@@ -40,7 +45,7 @@ const FooterWatchList = () => {
                                 className='mask'
                                 style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
                             >
-                                <img src='https://telegraphstar.com/wp-content/uploads/2020/04/9x.jpg' className='w-100' />
+                                <img alt='' src={MovieImage} className='w-100' />
                             </div>
                             </a>
                             </div>
@@ -53,7 +58,7 @@ const FooterWatchList = () => {
                                 className='mask'
                                 style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
                             >
-                                <img src='https://unbumf.com/wp-content/uploads/2018/09/thumb.jpg' className='w-100' />
+                                <img alt='' src={AnimeImage} className='w-100' />
                             </div>
                             </a>
                             </div>
@@ -66,7 +71,7 @@ const FooterWatchList = () => {
                                 className='mask'
                                 style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
                             >
-                                <img src='https://geekflare.com/wp-content/uploads/2022/10/Manga.webp' className='w-100' />
+                                <img alt='' src={mangaImage} className='w-100' />
                             </div>
                             </a>
                             </div>
