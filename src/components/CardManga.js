@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
-import dataTvShow from './CardTvShowData'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import NavBarMenu from './NavBarMenu';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 import FooterWatchList from './FooterWatchList';
+import dataManga from './CardMangaData'
 
-const CardTvShow = () => {
+
+const CardManga = () => {
     const [ noOfElement, setnoOfElement ] = useState(7);
     const loadMore = () => {
         setnoOfElement(noOfElement+5);
     }
-    const slice = dataTvShow.slice(0,noOfElement);
+    const slice = dataManga.slice(0,noOfElement);
 
     const [show, setShow] = useState(false);
 
@@ -31,11 +31,9 @@ const CardTvShow = () => {
                                 <img src={item.img} alt="" className='card-img-top'/>
                                 <div className='card-body'>
                                     <h5 className='card-title'>{item.title}</h5>
-                                    <p className='card-text'>My progress : {item.progress}</p>
-                                    <p className='card-text'>Seasons : {item.max_season}</p>
-                                    <p className='card-text'>New seasons : {item.new_season}</p>
-                                    <ProgressBar animated  now={item.progress_value} label={`${item.progress_value}%`}/>
-                                    <br/>
+                                    <p className='card-text'>Author(s) : {item.Author}</p>
+                                    <p className='card-text'>Status : {item.Status}</p>
+                                    <p className='card-text'>Genres : {item.Genres}</p>
                                     <Button variant="outline-dark" onClick={handleShow}>
                                         More Details
                                     </Button>
@@ -73,4 +71,4 @@ const CardTvShow = () => {
   )
 }
 
-export default CardTvShow
+export default CardManga

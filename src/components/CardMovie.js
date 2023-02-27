@@ -7,7 +7,6 @@ const CardMovie = () => {
     const [ noOfElement, setnoOfElement ] = useState(7);
     const loadMore = () => {
         setnoOfElement(noOfElement+5);
-        console.log("Trying to load more")
     }
     const slice = dataMovie.slice(0,noOfElement);
   return (
