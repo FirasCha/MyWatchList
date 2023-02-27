@@ -18,10 +18,10 @@ const CardMovie = () => {
                     return(
                         <div className='col-11 col-md-6 col-lg-3 mx-0 mb-5' key={index}>
                             <div className='card p-0 overflow-hidden h-100 shadow'>
-                                <img src={item.img} className='card-img-top'/>
+                                <img src={item.img} alt="" className='card-img-top'/>
                                 <div className='card-body'>
                                     <h5 className='card-title'>{item.title}</h5>
-                                    <p className='card-text'>Seasons : {item.max_season}</p>
+                                    <p className='card-text'>Released Year : {item.Released_Year}</p>
                                     <p className='card-text'>Duration : {item.duration}</p>
                                 </div>
                             </div>
