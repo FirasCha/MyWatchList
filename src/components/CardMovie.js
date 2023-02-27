@@ -22,6 +22,7 @@ const CardMovie = () => {
                                 <div className='card-body'>
                                     <h5 className='card-title'>{item.title}</h5>
                                     <p className='card-text'>Seasons : {item.max_season}</p>
+                                    <p className='card-text'>Duration : {item.duration}</p>
                                 </div>
                             </div>
                         </div>
