@@ -1,6 +1,6 @@
 import Through_My_Window from "../assets/Through_My_Window.webp"
 import the_A_team from "../assets/the_A_team.jpg"
-
+import ted from "../assets/ted.webp"
 import jump_street_21 from "../assets/21_jump_street.jpg"
 import jump_street_22 from "../assets/22_Jump_Street.jpg"
 import The_end_of_the_world_2012 from "../assets/2012.jpg"
@@ -11,7 +11,9 @@ import Purple_Hearts from "../assets/Purple_Hearts.jpg"
 import red_2 from "../assets/red2.jpg"
 import ted_2 from "../assets/ted2.jpg"
 import The_Transporter_2002 from "../assets/The-Transporter-2002.jpg"
-import ted from "../assets/ted.webp"
+import red from "../assets/red.jpg"
+import taken_2 from "../assets/taken2.jpg"
+import The_Italian_Job from "../assets/The_Italian_Job.jpg"
 
 const CardMovieData = [
     {
@@ -81,7 +83,7 @@ const CardMovieData = [
         duration : "1h 48m",
      },
      {
-        img : the_A_team,
+        img : red,
         title : "Red",
         Released_Year : "2010",
         duration : "1h 51m",
@@ -99,13 +101,13 @@ const CardMovieData = [
         duration : "1h 32m",
      },
      {
-        img : the_A_team,
+        img : taken_2,
         title : "Taken 2",
         Released_Year : "2012",
         duration : "1h 32m",
      },
      {
-        img : the_A_team,
+        img : The_Italian_Job,
         title : "The Italian Job",
         Released_Year : "2003",
         duration : "1h 51m",
