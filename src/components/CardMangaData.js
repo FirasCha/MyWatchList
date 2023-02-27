@@ -1,83 +1,96 @@
+import AoAshi from "../assets/AoAshi.webp"
+import TalesOfDemonsAndGods from "../assets/TalesOfDemonsAndGods.webp"
+import MercenaryEnrollment from "../assets/MercenaryEnrollment.webp"
+import MedicalReturn from "../assets/Medical Return.webp"
+import One_Piece from "../assets/OP.jpg"
+import Apotheosis from "../assets/Apotheosis.jpg"
+import TheBeginningAfterTheEnd from "../assets/The Beginning After The End.jpg"
+import kimetsu_no_yaiba from "../assets/kimetsu_no_yaiba.jpg"
+import black_clover from "../assets/black_clover.jpg"
+import NanoMachine from "../assets/NanoMachine.jpg"
+import NanatsuNoTaizai from "../assets/Nanatsu No Taizai.jpg"
+import Solo_Leveling from "../assets/Solo Leveling.png"
+
 const CardMangaData = [
     {
-        //img : Through_My_Window,
+        img : AoAshi,
         title : "Ao Ashi",
         Author :	"Yuugo Kobayashi - Naohiko Ueno",
         Status :	"Ongoing",
         Genres :	"School life - Seinen - Sports",
      },
      {
-        //img : Through_My_Window,
+        img : Apotheosis,
         title : "Apotheosis",
         Author :	"Ranzai Studio",
         Status :	"Ongoing",
         Genres :	"Action - Fantasy - Martial arts - Shounen",
      },
     {
-        //img : Through_My_Window,
+        img : TalesOfDemonsAndGods,
         title : "Tales Of Demons And Gods",
         Author :	"Mad Snail",
         Status :	"Ongoing",
         Genres :	"Action - Adventure - Comedy - Drama - Fantasy - Harem - Romance - Shounen - Manhua",
     },
     {
-        //img : Through_My_Window,
+        img : One_Piece,
         title : "One Piece",
         Author :    "Oda Eiichiro",
         Status :	"Ongoing",
         Genres :	"Action - Adventure - Comedy - Drama - Fantasy - Shounen",
     },
     {
-        //img : Through_My_Window,
+        img : Solo_Leveling,
         title : "Solo Leveling",
         Author :	"Sung-Lak Jang",
         Status :	"Ongoing",
         Genres :	"Action - Adventure - Fantasy - Shounen - Webtoons",
     },
     {
-        //img : Through_My_Window,
+        img : TheBeginningAfterTheEnd,
         title : "The Beginning After The End",
         Author :	"Turtleme - Fuyuki23",
         Status :	"Ongoing",
         Genres :	"Action - Adventure - Comedy - Fantasy - Webtoons",
     },
     {
-        //img : Through_My_Window,
+        img : kimetsu_no_yaiba,
         title : "Kimetsu No Yaiba",
         Author :	"Gotouge Koyoharu",
-        Status :	"Finished",
+        Status :	"Completed",
         Genres :	"Adventure - Fantasy - Historical - Shounen",
     },
     {
-        //img : Through_My_Window,
+        img : black_clover,
         title : "Black Clover",
         Author :	"Tabata Yuuki",
         Status :	"Ongoing",
         Genres :	"Action - Comedy - Fantasy - Sci fi - Shounen - Supernatural",
     },
     {
-        //img : Through_My_Window,
+        img : MercenaryEnrollment,
         title : "Mercenary Enrollment",
         Author :	"Yc",
         Status :	"Ongoing",
         Genres :	"Action - Adventure - Drama - Romance - Sci fi",
     },
     {
-        //img : Through_My_Window,
+        img : NanoMachine,
         title : "Nano Machine",
         Author :	"Great H (현절무) - Hanjung Wolya (한중월야)",
         Status :	"Ongoing",
         Genres :	"Action - Adventure - Fantasy - Martial arts",
     },
     {
-        //img : Through_My_Window,
+        img : NanatsuNoTaizai,
         title : "Nanatsu No Taizai",
         Author :	"Suzuki Nakaba",
         Status :	"Ongoing",
         Genres :	"Action - Adventure - Comedy - Drama - Fantasy - Shounen - Supernatural",
     },
     {
-        //img : Through_My_Window,
+        img : MedicalReturn,
         title : "Medical Return",
         Author :	"Kidari Studio - Yuin - Yeon Jae Joong",
         Status :	"Finished",
@@ -103,6 +116,27 @@ const CardMangaData = [
         Author :	"원작 제로빅",
         Status :	"Ongoing",
         Genres :	"Action",
+    },
+    {
+        //img : Through_My_Window,
+        title : "Naruto",
+        Author :	"Kishimoto Masashi",
+        Status :	"Completed",
+        Genres :	"Action - Adventure - Comedy - Doujinshi - Drama - Fantasy - Martial arts - Shounen",
+    },
+    {
+        //img : Through_My_Window,
+        title : "Doctor’S Rebirth",
+        Author :	"Taesun Dobin",
+        Status :	"Ongoing",
+        Genres :	"Action - Fantasy - Medical - Isekai",
+    },
+    {
+        //img : Through_My_Window,
+        title : "Hunter X Hunter",
+        Author :	"Togashi Yoshihiro",
+        Status :	"Ongoing",
+        Genres :	"Action - Adventure - Drama - Fantasy - Psychological - Shounen - Supernatural - Tragedy",
     },
     {
         //img : Through_My_Window,

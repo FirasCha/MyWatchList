@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
 import NavBarMenu from './NavBarMenu';
 import FooterWatchList from './FooterWatchList';
 import dataManga from './CardMangaData'
@@ -13,12 +11,6 @@ const CardManga = () => {
     }
     const slice = dataManga.slice(0,noOfElement);
 
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => {
-        setShow(true);
-    }
   return (
     <div>
         <NavBarMenu/>
@@ -34,23 +26,6 @@ const CardManga = () => {
                                     <p className='card-text'>Author(s) : {item.Author}</p>
                                     <p className='card-text'>Status : {item.Status}</p>
                                     <p className='card-text'>Genres : {item.Genres}</p>
-                                    <Button variant="outline-dark" onClick={handleShow}>
-                                        More Details
-                                    </Button>
-                                    <Modal
-                                        show={show}
-                                        onHide={handleClose}
-                                        backdrop="static"
-                                        keyboard={true}
-                                        centered={true}
-                                        >
-                                        <Modal.Header closeButton>
-                                            <Modal.Title>{item.title}</Modal.Title>
-                                        </Modal.Header>
-                                        <Modal.Body>
-                                            {item.title}
-                                        </Modal.Body>
-                                    </Modal>
                                 </div>
                             </div>
                             
