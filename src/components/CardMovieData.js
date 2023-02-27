@@ -127,5 +127,53 @@ const CardMovieData = [
         Released_Year : "2008",
         duration : "1h 32m",
      },
+     {
+        img : the_A_team,
+        title : "Shrek",
+        Released_Year : "2001",
+        duration : "1h 30m",
+     },
+     {
+        img : the_A_team,
+        title : "Shrek 2",
+        Released_Year : "2004",
+        duration : "1h 33m",
+     },
+     {
+        img : the_A_team,
+        title : "King Kong",
+        Released_Year : "2005",
+        duration : "3h 7m",
+     },
+     {
+        img : the_A_team,
+        title : "Despicable Me",
+        Released_Year : "2010",
+        duration : "1h 35m",
+     },
+     {
+        img : the_A_team,
+        title : "Madagascar",
+        Released_Year : "2005",
+        duration : "1h 26m",
+     },
+     {
+        img : the_A_team,
+        title : "Madagascar: Escape 2 Africa",
+        Released_Year : "2008",
+        duration : "1h 29m",
+     },
+     {
+        img : the_A_team,
+        title : "How to Train Your Dragon",
+        Released_Year : "2010",
+        duration : "1h 38m",
+     },
+     {
+        img : the_A_team,
+        title : "How to Train Your Dragon 2",
+        Released_Year : "2014",
+        duration : "1h 42m",
+     },
 ];
 export default CardMovieData;
