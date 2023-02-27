@@ -4,6 +4,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import MenuOfWatchList from './components/MenuOfWatchList';
 import CardMovie from './components/CardMovie';
 import CardTvShow from './components/CardTvShow';
+import CardManga from './components/CardManga';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path='/' element={<MenuOfWatchList/>}></Route>
           <Route path='/tvshow' element={<CardTvShow/>}></Route>
           <Route path='/mymovies' element={<CardMovie/>}></Route>
+          <Route path='/mymanga' element={<CardManga/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
