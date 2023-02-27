@@ -1,5 +1,18 @@
 import Through_My_Window from "../assets/Through_My_Window.webp"
 import the_A_team from "../assets/the_A_team.jpg"
+
+import jump_street_21 from "../assets/21_jump_street.jpg"
+import jump_street_22 from "../assets/22_Jump_Street.jpg"
+import The_end_of_the_world_2012 from "../assets/2012.jpg"
+import bee from "../assets/Bee.jpg"
+import Friends_with_Benefits from "../assets/Friends_with_Benefits.jpg"
+import No_Strings_Attached from "../assets/No_Strings_Attached.jpg"
+import Purple_Hearts from "../assets/Purple_Hearts.jpg"
+import red_2 from "../assets/red2.jpg"
+import ted_2 from "../assets/ted2.jpg"
+import The_Transporter_2002 from "../assets/The-Transporter-2002.jpg"
+import ted from "../assets/ted.webp"
+
 const CardMovieData = [
     {
         img : Through_My_Window,
@@ -14,55 +27,55 @@ const CardMovieData = [
         duration : "1h 57m",
      },
      {
-        img : the_A_team,
+        img : Purple_Hearts,
         title : "Purple Hearts",
         Released_Year : "2022",
         duration : "2h 2m",
      },
      {
-        img : the_A_team,
+        img : The_end_of_the_world_2012,
         title : "2012",
         Released_Year : "2009",
         duration : "2h 38m",
      },
      {
-        img : the_A_team,
+        img : bee,
         title : "Bee",
         Released_Year : "2007",
         duration : "1h 31m",
      },
      {
-        img : the_A_team,
+        img : ted,
         title : "Ted",
         Released_Year : "2012",
         duration : "1h 46m",
      },
      {
-        img : the_A_team,
+        img : ted_2,
         title : "Ted 2",
         Released_Year : "2015",
         duration : "1h 55m",
      },
      {
-        img : the_A_team,
+        img : jump_street_21,
         title : "21 Jump Street",
         Released_Year : "2012",
         duration : "1h 49m",
      },
      {
-        img : the_A_team,
+        img : jump_street_22,
         title : "22 Jump Street",
         Released_Year : "2014",
         duration : "1h 52m",
      },
      {
-        img : the_A_team,
+        img : Friends_with_Benefits,
         title : "Friends with Benefits",
         Released_Year : "2011",
         duration : "1h 49m",
      },
      {
-        img : the_A_team,
+        img : No_Strings_Attached,
         title : "No Strings Attached",
         Released_Year : "2011",
         duration : "1h 48m",
@@ -74,13 +87,13 @@ const CardMovieData = [
         duration : "1h 51m",
      },
      {
-        img : the_A_team,
+        img : red_2,
         title : "Red 2",
         Released_Year : "2013",
         duration : "1h 56m",
      },
      {
-        img : the_A_team,
+        img : The_Transporter_2002,
         title : "The Transporter",
         Released_Year : "2002",
         duration : "1h 32m",
