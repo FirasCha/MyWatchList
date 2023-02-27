@@ -43,5 +43,65 @@ const CardMovieData = [
         Released_Year : "2015",
         duration : "1h 55m",
      },
+     {
+        img : the_A_team,
+        title : "21 Jump Street",
+        Released_Year : "2012",
+        duration : "1h 49m",
+     },
+     {
+        img : the_A_team,
+        title : "22 Jump Street",
+        Released_Year : "2014",
+        duration : "1h 52m",
+     },
+     {
+        img : the_A_team,
+        title : "Friends with Benefits",
+        Released_Year : "2011",
+        duration : "1h 49m",
+     },
+     {
+        img : the_A_team,
+        title : "No Strings Attached",
+        Released_Year : "2011",
+        duration : "1h 48m",
+     },
+     {
+        img : the_A_team,
+        title : "Red",
+        Released_Year : "2010",
+        duration : "1h 51m",
+     },
+     {
+        img : the_A_team,
+        title : "Red 2",
+        Released_Year : "2013",
+        duration : "1h 56m",
+     },
+     {
+        img : the_A_team,
+        title : "The Transporter",
+        Released_Year : "2002",
+        duration : "1h 32m",
+     },
+     {
+        img : the_A_team,
+        title : "Taken 2",
+        Released_Year : "2012",
+        duration : "1h 32m",
+     },
+     {
+        img : the_A_team,
+        title : "The Italian Job",
+        Released_Year : "2003",
+        duration : "1h 51m",
+     },
+     {
+        img : the_A_team,
+        title : "Olympus Has Fallen",
+        Released_Year : "2013",
+        duration : "1h 59m",
+     },
 ];
 export default CardMovieData;
