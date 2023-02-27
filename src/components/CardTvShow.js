@@ -3,9 +3,9 @@ import dataTvShow from './CardTvShowData'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import NavBarMenu from './NavBarMenu';
-
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import FooterWatchList from './FooterWatchList';
+
 const CardTvShow = () => {
     const [ noOfElement, setnoOfElement ] = useState(7);
     const loadMore = () => {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import dataMovie from './CardMovieData'
 import NavBarMenu from './NavBarMenu';
+import FooterWatchList from './FooterWatchList';
 
 const CardMovie = () => {
     const [ noOfElement, setnoOfElement ] = useState(7);
@@ -35,7 +36,9 @@ const CardMovie = () => {
             >
                 Load More
             </button>
+            <br/>
         </section>
+        <FooterWatchList/> 
     </div>
   )
 }
