@@ -67,7 +67,7 @@ const FooterWatchList = () => {
                         <Col lg='2' md='12' className='mb-4 mb-md-0'>
                             <div color='light' className='bg-image hover-overlay shadow-1-strong rounded'>
                             
-                            <a href='#!'>
+                            <a href='/mymanga'>
                             <div
                                 className='mask'
                                 style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}

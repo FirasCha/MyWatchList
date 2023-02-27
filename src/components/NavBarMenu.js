@@ -27,6 +27,7 @@ const NavBarMenu = () => {
                   <Nav.Link href="/" >Menu</Nav.Link>
                   <Nav.Link href="/tvshow" >TV Shows</Nav.Link>
                   <Nav.Link href="/mymovies">Movies</Nav.Link>
+                  <Nav.Link href="/mymanga">Manga</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
