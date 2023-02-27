@@ -103,5 +103,29 @@ const CardMovieData = [
         Released_Year : "2013",
         duration : "1h 59m",
      },
+     {
+        img : the_A_team,
+        title : "World War Z",
+        Released_Year : "2013",
+        duration : "1h 56m",
+     },
+     {
+        img : the_A_team,
+        title : "Training Day",
+        Released_Year : "2001",
+        duration : "2h 2m",
+     },
+     {
+        img : the_A_team,
+        title : "Wonder Woman",
+        Released_Year : "2017",
+        duration : "2h 21m",
+     },
+     {
+        img : the_A_team,
+        title : "Kung Fu Panda",
+        Released_Year : "2008",
+        duration : "1h 32m",
+     },
 ];
 export default CardMovieData;
