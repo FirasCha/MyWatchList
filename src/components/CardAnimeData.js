@@ -1,3 +1,73 @@
 const CardAnimeData = [
+    {
+        //img : Through_My_Window,
+        title : "One Piece",
+        Status :	"",
+        Genres :	"",
+        Studio : "",
+    },
+    {
+        //img : Through_My_Window,
+        title : "Hunter x Hunter",
+        Status :	"",
+        Genres :	"",
+        Studio : "",
+    },
+    {
+        //img : Through_My_Window,
+        title : "Haikyuu",
+        Status :	"",
+        Genres :	"",
+        Studio : "",
+    },
+    {
+        //img : Through_My_Window,
+        title : "",
+        Status :	"",
+        Genres :	"",
+        Studio : "",
+    },
+    {
+        //img : Through_My_Window,
+        title : "",
+        Status :	"",
+        Genres :	"",
+        Studio : "",
+    },
+    {
+        //img : Through_My_Window,
+        title : "",
+        Status :	"",
+        Genres :	"",
+        Studio : "",
+    },
+    {
+        //img : Through_My_Window,
+        title : "",
+        Status :	"",
+        Genres :	"",
+        Studio : "",
+    },
+    {
+        //img : Through_My_Window,
+        title : "",
+        Status :	"",
+        Genres :	"",
+        Studio : "",
+    },
+    {
+        //img : Through_My_Window,
+        title : "",
+        Status :	"",
+        Genres :	"",
+        Studio : "",
+    },
+    {
+        //img : Through_My_Window,
+        title : "",
+        Status :	"",
+        Genres :	"",
+        Studio : "",
+    },
 ];
 export default CardAnimeData;
