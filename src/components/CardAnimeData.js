@@ -141,12 +141,6 @@ const CardAnimeData = [
         Studio : "Nippon Animation",
     },
     {
-        img : BakutenShootBeybladeGRevolution,
-        title : "Bakuten Shoot Beyblade G Revolution",
-        Genres :	"Action, Adventure, Comedy, Sci-Fi, Sports",
-        Studio : "Nippon Animation",
-    },
-    {
         img : IdatenJump,
         title : "Idaten Jump",
         Genres :	"Sports",
@@ -168,6 +162,12 @@ const CardAnimeData = [
         img : SuperFishingGranderMusashi,
         title : "Super Fishing Grander Musashi",
         Genres :	"Adventure, Sports",
+        Studio : "Nippon Animation",
+    },
+    {
+        img : BakutenShootBeybladeGRevolution,
+        title : "Bakuten Shoot Beyblade G Revolution",
+        Genres :	"Action, Adventure, Comedy, Sci-Fi, Sports",
         Studio : "Nippon Animation",
     },
     {

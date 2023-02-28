@@ -5,14 +5,15 @@ import MyWatchListMainPage from '../assets/MyWatchListMainPage.jpeg'
 import TvShowMainPage from '../assets/TvShowMainPage.webp'
 import GamesMainPage from '../assets/GamesMainPage.jpg'
 import Carousel from 'react-bootstrap/Carousel';
+import dataAnime from './CardAnimeData'
 
 const MenuOfWatchList = () => {
+  const test = Math.floor(Math.random()*dataAnime.length)
+  console.log(dataAnime[Math.floor(Math.random()*dataAnime.length)])
+  console.log(dataAnime[Math.floor(Math.random()*dataAnime.length)])
+  console.log(dataAnime[Math.floor(Math.random()*dataAnime.length)])
+
   return (
-    // <div>
-    //   <Link to="/" > Menu</Link>
-    //   <Link to="/tvshow" > TV Shows</Link>
-    //   <Link to="/mymovies" > Movies</Link>
-    // </div>
     <div>
       <NavBarMenu/>   
       {/* <div>
@@ -43,6 +44,22 @@ const MenuOfWatchList = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <br/>
+      <h5 className='card-title'>My Animes</h5>
+      <div style={{textAlign:'center'}} className='row justify-content-center'>
+                {dataAnime
+                .slice(test,test+6)
+                .map((item,index)=>{
+                    return(
+                        <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5' key={index}>
+                            <div className='card p-0 overflow-hidden h-100 shadow'>
+                                <img src={item.img} alt="" className='card-img-top'/>
+                            </div>
+                            
+                        </div>
+                    )
+                })}
+        </div>
       <FooterWatchList/>     
     </div>        
   )
