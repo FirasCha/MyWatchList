@@ -1,4 +1,10 @@
 import One_Piece from "../assets/OP.jpg"
+import HunterXHunter from "../assets/HunterXHunter.jpg"
+import HaikyuuSecondSeason from "../assets/HaikyuuSecondSeason.jpg"
+import Haikyuu from "../assets/Haikyuu.jpg"
+import HaikyuuKarasunoKoukouvsShiratorizawaGakuenKoukou from "../assets/HaikyuuKarasunoKoukouvsShiratorizawaGakuenKoukou.webp"
+import HaikyuuTotheTopPart2 from "../assets/HaikyuuTotheTopPart2.webp"
+import HaikyuuTotheTopPart1 from "../assets/HaikyuuTotheTopPart1.jpe"
 
 const CardAnimeData = [
     {
@@ -8,37 +14,37 @@ const CardAnimeData = [
         Studio : "Toei Animation",
     },
     {
-        //img : Through_My_Window,
+        img : HunterXHunter,
         title : "Hunter x Hunter(2011)",
         Genres :	"Action, Adventure, Fantasy",
         Studio : "Madhouse",
     },
     {
-        //img : Through_My_Window,
+        img : Haikyuu,
         title : "Haikyuu",
         Genres :	"Sports",
         Studio : "Production I.G",
     },
     {
-        //img : Through_My_Window,
+        img : HaikyuuSecondSeason,
         title : "Haikyuu: Second Season",
         Genres :	"Sports",
         Studio : "Production I.G",
     },
     {
-        //img : Through_My_Window,
+        img : HaikyuuKarasunoKoukouvsShiratorizawaGakuenKoukou,
         title : "Haikyuu: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
         Genres :	"Sports",
         Studio : "Production I.G",
     },
     {
-        //img : Through_My_Window,
+        img : HaikyuuTotheTopPart1,
         title : "Haikyuu: To the Top",
         Genres :	"Sports",
         Studio : "Production I.G",
     },
     {
-        //img : Through_My_Window,
+        img : HaikyuuTotheTopPart2,
         title : "Haikyuu: To the Top Part 2",
         Genres :	"Sports",
         Studio : "Production I.G",
