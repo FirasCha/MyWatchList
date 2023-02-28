@@ -2,6 +2,16 @@ import One_Piece from "../assets/OP.jpg"
 import HunterXHunter from "../assets/HunterXHunter.jpg"
 import HaikyuuSecondSeason from "../assets/HaikyuuSecondSeason.jpg"
 import Haikyuu from "../assets/Haikyuu.jpg"
+import BallroomeYoukoso from "../assets/BallroomeYoukoso.jpg"
+import KurokonoBasket from "../assets/KurokonoBasket.jpg"
+import KurokonoBasket2ndSeason from "../assets/KurokonoBasket2ndSeason.jpg"
+import KurokonoBasket3rdSeason from "../assets/KurokonoBasket3rdSeason.jpg"
+import BakutenShootBeyblade2002 from "../assets/BakutenShootBeyblade2002.jpg"
+import BakutenShootBeybladeGRevolution from "../assets/BakutenShootBeybladeGRevolution.jpg"
+import CaptainTsubasaRoadto2002 from "../assets/CaptainTsubasaRoadto2002.jpg"
+import MetalFightBeyblade from "../assets/MetalFightBeyblade.jpg"
+import InazumaEleven from "../assets/InazumaEleven.jpg"
+import SlamDunk from "../assets/SlamDunk.png"
 import HaikyuuKarasunoKoukouvsShiratorizawaGakuenKoukou from "../assets/HaikyuuKarasunoKoukouvsShiratorizawaGakuenKoukou.webp"
 import HaikyuuTotheTopPart2 from "../assets/HaikyuuTotheTopPart2.webp"
 import HaikyuuTotheTopPart1 from "../assets/HaikyuuTotheTopPart1.jpe"
@@ -50,61 +60,61 @@ const CardAnimeData = [
         Studio : "Production I.G",
     },
     {
-        //img : Through_My_Window,
+        img : KurokonoBasket,
         title : "Kuroko no Basket",
         Genres :	"Sports",
         Studio : "Production I.G",
     },
     {
-        //img : Through_My_Window,
+        img : KurokonoBasket2ndSeason,
         title : "Kuroko no Basket 2nd Season",
         Genres :	"Sports",
         Studio : "Production I.G",
     },
     {
-        //img : Through_My_Window,
+        img : KurokonoBasket3rdSeason,
         title : "Kuroko no Basket 3rd Season",
         Genres :	"Sports",
         Studio : "Production I.G",
     },
     {
-        //img : Through_My_Window,
+        img : BallroomeYoukoso,
         title : "Ballroom e Youkoso",
         Genres :	"Comedy, Drama, Romance, Sports",
         Studio : "Production I.G",
     },
     {
-        //img : Through_My_Window,
+        img : SlamDunk,
         title : "Slam Dunk",
         Genres :	"Sports",
         Studio : "Toei Animation",
     },
     {
-        //img : Through_My_Window,
+        img : MetalFightBeyblade,
         title : "Metal Fight Beyblade",
         Genres :	"Adventure, Comedy, Sports",
         Studio : "Tatsunoko Production",
     },
     {
-        //img : Through_My_Window,
+        img : CaptainTsubasaRoadto2002,
         title : "Captain Tsubasa: Road to 2002",
         Genres :	"Sports",
         Studio : "Group TAC",
     },
     {
-        //img : Through_My_Window,
+        img : InazumaEleven,
         title : "Inazuma Eleven",
         Genres :	"Sports",
         Studio : "OLM",
     },
     {
-        //img : Through_My_Window,
+        img : BakutenShootBeyblade2002,
         title : "Bakuten Shoot Beyblade 2002",
         Genres :	"Action, Adventure, Comedy, Sci-Fi, Sports",
         Studio : "Nippon Animation",
     },
     {
-        //img : Through_My_Window,
+        img : BakutenShootBeybladeGRevolution,
         title : "Bakuten Shoot Beyblade G Revolution",
         Genres :	"Action, Adventure, Comedy, Sci-Fi, Sports",
         Studio : "Nippon Animation",
