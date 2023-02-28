@@ -26,16 +26,23 @@ const CardAnime = () => {
     //     const checkSportsGenres = dataAnime.filter(SportsGenres);
     //     console.log(checkSportsGenres);
     // }
-    
+    // const [ items, setItems ] = useState(dataAnime);
+    // const FilterItem = (StudioItem) =>{
+    //     const updatedItems = dataAnime.filter((curElem) => {
+    //         return curElem.Studio === StudioItem;
+    //     });
+    //     setItems(updatedItems);
+    // }
+
   return (
     <div>
         <NavBarMenu/>
         {/* <section className='capy-4 container' style={{display: "flex"}}>
-            <div>
+            <div className='menu-tab d-flex justify-content-around'>
                 <Button 
                     variant="secondary"
                     className='btn d-block w-10'
-                    onClick={() => MadhouseStudioButton()}
+                    onClick={() => FilterItem('Madhouse')}
                 >
                     Madhouse Studio
                 </Button>
