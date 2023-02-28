@@ -5,6 +5,7 @@ import MenuOfWatchList from './components/MenuOfWatchList';
 import CardMovie from './components/CardMovie';
 import CardTvShow from './components/CardTvShow';
 import CardManga from './components/CardManga';
+import CardAnime from './components/CardAnime';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/tvshow' element={<CardTvShow/>}></Route>
           <Route path='/mymovies' element={<CardMovie/>}></Route>
           <Route path='/mymanga' element={<CardManga/>}></Route>
+          <Route path='/myanime' element={<CardAnime/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
