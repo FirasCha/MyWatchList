@@ -223,15 +223,15 @@ const CardAnimeData = [
     },
     {
         //img : Through_My_Window,
-        title : "",
-        Genres :	"",
-        Studio : "",
+        title : "Iron Kid",
+        Genres :	"Action, Adventure, Comedy, Sci-Fi",
+        Studio : "Daewon Media",
     },
     {
         //img : Through_My_Window,
-        title : "",
-        Genres :	"",
-        Studio : "",
+        title : "Bakusou Kyoudai Let's & Go MAX",
+        Genres :	"Action",
+        Studio : "Xebec",
     },
     {
         //img : Through_My_Window,
