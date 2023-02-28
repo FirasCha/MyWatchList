@@ -11,9 +11,14 @@ import BakutenShootBeybladeGRevolution from "../assets/BakutenShootBeybladeGRevo
 import CaptainTsubasaRoadto2002 from "../assets/CaptainTsubasaRoadto2002.jpg"
 import MetalFightBeyblade from "../assets/MetalFightBeyblade.jpg"
 import InazumaEleven from "../assets/InazumaEleven.jpg"
+import ChousokuSpinner from "../assets/ChousokuSpinner.jpg"
+import HonoonoToukyuujiDodgeDanpei from "../assets/HonoonoToukyuujiDodgeDanpei.jpg"
+import IdatenJump from "../assets/IdatenJump.jpg"
+import SuperFishingGranderMusashi from "../assets/SuperFishingGranderMusashi.jpg"
 import SlamDunk from "../assets/SlamDunk.png"
 import HaikyuuKarasunoKoukouvsShiratorizawaGakuenKoukou from "../assets/HaikyuuKarasunoKoukouvsShiratorizawaGakuenKoukou.webp"
 import HaikyuuTotheTopPart2 from "../assets/HaikyuuTotheTopPart2.webp"
+import Cyborg009 from "../assets/Cyborg009(1979).webp"
 import HaikyuuTotheTopPart1 from "../assets/HaikyuuTotheTopPart1.jpe"
 
 const CardAnimeData = [
@@ -120,31 +125,31 @@ const CardAnimeData = [
         Studio : "Nippon Animation",
     },
     {
-        //img : Through_My_Window,
+        img : IdatenJump,
         title : "Idaten Jump",
         Genres :	"Sports",
         Studio : "Trans Arts",
     },
     {
-        //img : Through_My_Window,
+        img : ChousokuSpinner,
         title : "Chousoku Spinner",
         Genres :	"Sports",
         Studio : "Xebec",
     },
     {
-        //img : Through_My_Window,
+        img : HonoonoToukyuujiDodgeDanpei,
         title : "Honoo no Toukyuuji: Dodge Danpei",
         Genres :	"Comedy, Sports",
         Studio : "Animation 21",
     },
     {
-        //img : Through_My_Window,
+        img : SuperFishingGranderMusashi,
         title : "Super Fishing Grander Musashi",
         Genres :	"Adventure, Sports",
         Studio : "Nippon Animation",
     },
     {
-        //img : Through_My_Window,
+        img : Cyborg009,
         title : "Cyborg 009 (1979)",
         Genres :	"Action, Adventure, Sci-Fi",
         Studio : "Toei Animation",
