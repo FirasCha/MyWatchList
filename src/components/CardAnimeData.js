@@ -15,11 +15,33 @@ import ChousokuSpinner from "../assets/ChousokuSpinner.jpg"
 import HonoonoToukyuujiDodgeDanpei from "../assets/HonoonoToukyuujiDodgeDanpei.jpg"
 import IdatenJump from "../assets/IdatenJump.jpg"
 import SuperFishingGranderMusashi from "../assets/SuperFishingGranderMusashi.jpg"
+import YuGiOh from "../assets/YuGiOh.jpg"
+import ShamanKing from "../assets/ShamanKing.jpg"
+import RekkanoHonoo from "../assets/RekkanoHonoo.jpg"
+import UshiotoTora2ndSeason from "../assets/UshiotoTora(TV)2ndSeason.jpg"
+import NanatsunoTaizai from "../assets/NanatsunoTaizai.jpg"
+import KekkaiSensenBeyond from "../assets/KekkaiSensenBeyond.jpg"
+import BakusouKyoudaiLetsGoMAX from "../assets/BakusouKyoudaiLetsGoMAX.jpg"
+import BlueDragon from "../assets/BlueDragon.jpg"
+import DeathNote from "../assets/DeathNote.jpg"
+import NarutoShippuuden from "../assets/NarutoShippuuden.jpg"
+import IRONKID from "../assets/IRONKID.jpg"
 import SlamDunk from "../assets/SlamDunk.png"
 import HaikyuuKarasunoKoukouvsShiratorizawaGakuenKoukou from "../assets/HaikyuuKarasunoKoukouvsShiratorizawaGakuenKoukou.webp"
 import HaikyuuTotheTopPart2 from "../assets/HaikyuuTotheTopPart2.webp"
 import Cyborg009 from "../assets/Cyborg009(1979).webp"
+import YuGiOhDuelMonsters from "../assets/YuGiOhDuelMonsters.webp"
+import BleachSennenKessenhen from "../assets/BleachSennenKessenhen.webp"
+import Bleach from "../assets/Bleach.webp"
+import lupin_iii from "../assets/lupin_iii.webp"
+import MonsterFarmEnbansekinoHimitsu from "../assets/MonsterFarmEnbansekinoHimitsu.webp"
+import MutsuEnmeiRyuuGaidenShuranoToki from "../assets/MutsuEnmeiRyuuGaidenShuranoToki.webp"
+import BokudakegaInaiMachi from "../assets/BokudakegaInaiMachi.webp"
+import KekkaiSensen from "../assets/KekkaiSensen.webp"
+import hokuto_no_ken from "../assets/hokuto_no_ken.webp"
+import Naruto from "../assets/Naruto.webp"
 import HaikyuuTotheTopPart1 from "../assets/HaikyuuTotheTopPart1.jpe"
+import DeathParade from "../assets/DeathParade.jpe"
 
 const CardAnimeData = [
     {
@@ -155,142 +177,136 @@ const CardAnimeData = [
         Studio : "Toei Animation",
     },
     {
-        //img : Through_My_Window,
+        img : MutsuEnmeiRyuuGaidenShuranoToki,
         title : "Mutsu Enmei Ryuu Gaiden: Shura no Toki",
         Genres :	"Action",
         Studio : "Studio Comet",
     },
     {
-        //img : Through_My_Window,
+        img : MonsterFarmEnbansekinoHimitsu,
         title : "Monster Farm: Enbanseki no Himitsu",
         Genres :	"Action, Adventure, Comedy, Fantasy",
         Studio : "TMS Entertainment",
     },
     {
-        //img : Through_My_Window,
+        img : RekkanoHonoo,
         title : "Rekka no Honoo",
         Genres :	"Action, Adventure",
         Studio : "Pierrot",
     },
     {
-        //img : Through_My_Window,
+        img : lupin_iii,
         title : "Lupin III",
         Genres :	"Action, Adventure, Comedy, Mystery",
         Studio : "Tokyo Movie Shinsha",
     },
     {
-        //img : Through_My_Window,
+        img : UshiotoTora2ndSeason,
         title : "Ushio to Tora (TV) 2nd Season",
         Genres :	"Action, Adventure, Comedy, Supernatural",
         Studio : "MAPPA, Studio VOLN",
     },
     {
-        //img : Through_My_Window,
+        img : hokuto_no_ken,
         title : "Hokuto no Ken",
         Genres :	"Action, Drama, Sci-Fi",
         Studio : "Toei Animation",
     },
     {
-        //img : Through_My_Window,
+        img : YuGiOhDuelMonsters,
         title : "Yu☆Gi☆Oh! Duel Monsters",
         Genres :	"Action, Adventure, Fantasy",
         Studio : "Gallop",
     },
     {
-        //img : Through_My_Window,
+        img : YuGiOh,
         title : "Yu☆Gi☆Oh!",
         Genres :	"Action, Comedy, Fantasy",
         Studio : "Toei Animation",
     },
     {
-        //img : Through_My_Window,
+        img : KekkaiSensenBeyond,
         title : "Kekkai Sensen & Beyond",
         Genres :	"Action, Comedy, Fantasy, Supernatural",
         Studio : "Bones",
     },
     {
-        //img : Through_My_Window,
+        img : KekkaiSensen,
         title : "Kekkai Sensen",
         Genres :	"Action, Comedy, Fantasy, Supernatural",
         Studio : "Bones",
     },
     {
-        //img : Through_My_Window,
+        img : NarutoShippuuden,
         title : "Naruto: Shippuuden",
         Genres :	"Action, Adventure, Fantasy",
         Studio : "Pierrot",
     },
     {
-        //img : Through_My_Window,
+        img : Naruto,
         title : "Naruto",
         Genres :	"Action, Adventure, Fantasy",
         Studio : "Pierrot",
     },
     {
-        //img : Through_My_Window,
+        img : NanatsunoTaizai,
         title : "Nanatsu no Taizai",
         Genres :	"Action, Adventure, Fantasy",
         Studio : "A-1 Pictures",
     },
     {
-        //img : Through_My_Window,
+        img : BleachSennenKessenhen,
         title : "Bleach: Sennen Kessen-hen",
         Genres :	"Action, Adventure, Fantasy",
         Studio : "Pierrot",
     },
     {
-        //img : Through_My_Window,
+        img : Bleach,
         title : "Bleach",
         Genres :	"Action, Adventure, Fantasy",
         Studio : "Pierrot",
     },
     {
-        //img : Through_My_Window,
+        img : IRONKID,
         title : "Iron Kid",
         Genres :	"Action, Adventure, Comedy, Sci-Fi",
         Studio : "Daewon Media",
     },
     {
-        //img : Through_My_Window,
+        img : BakusouKyoudaiLetsGoMAX,
         title : "Bakusou Kyoudai Let's & Go MAX",
         Genres :	"Action",
         Studio : "Xebec",
     },
     {
-        //img : Through_My_Window,
+        img : DeathNote,
         title : "Death Note",
         Genres :	"Supernatural, Suspense",
         Studio : "Madhouse",
     },
     {
-        //img : Through_My_Window,
+        img : BokudakegaInaiMachi,
         title : "Boku dake ga Inai Machi",
         Genres :	"Mystery, Supernatural, Suspense",
         Studio : "A-1 Pictures",
     },
     {
-        //img : Through_My_Window,
+        img : DeathParade,
         title : "Death Parade",
         Genres :	"Drama, Supernatural, Suspense",
         Studio : "Madhouse",
     },
     {
-        //img : Through_My_Window,
+        img : ShamanKing,
         title : "Shaman King",
         Genres :	"Action, Adventure, Comedy, Supernatural",
         Studio : "Xebec",
     },
     {
-        //img : Through_My_Window,
+        img : BlueDragon,
         title : "Blue Dragon",
         Genres :	"Adventure, Comedy, Fantasy, Supernatural",
         Studio : "Pierrot",
-    },
-    {
-        //img : Through_My_Window,
-        title : "",
-        Genres :	"",
-        Studio : "",
     },
 ];
 export default CardAnimeData;
