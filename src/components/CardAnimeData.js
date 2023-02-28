@@ -1,6 +1,8 @@
+import One_Piece from "../assets/OP.jpg"
+
 const CardAnimeData = [
     {
-        //img : Through_My_Window,
+        img : One_Piece,
         title : "One Piece",
         Genres :	"Action, Adventure, Fantasy",
         Studio : "Toei Animation",
