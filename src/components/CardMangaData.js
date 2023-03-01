@@ -2,12 +2,17 @@ import AoAshi from "../assets/AoAshi.webp"
 import TalesOfDemonsAndGods from "../assets/TalesOfDemonsAndGods.webp"
 import MercenaryEnrollment from "../assets/MercenaryEnrollment.webp"
 import MedicalReturn from "../assets/Medical Return.webp"
+import MurimLogin from "../assets/MurimLogin.webp"
+import The_Advanced_Player_of_the_Tutorial_Tower from "../assets/The_Advanced_Player_of_the_Tutorial_Tower_29.webp"
 import One_Piece from "../assets/OP.jpg"
 import Apotheosis from "../assets/Apotheosis.jpg"
 import TheBeginningAfterTheEnd from "../assets/The Beginning After The End.jpg"
 import kimetsu_no_yaiba from "../assets/kimetsu_no_yaiba.jpg"
 import black_clover from "../assets/black_clover.jpg"
 import NanoMachine from "../assets/NanoMachine.jpg"
+import DoctorSRebirth from "../assets/DoctorSRebirth.jpg"
+import HunterXHunterManga from "../assets/HunterXHunterManga.jpg"
+import ThePlayerThatCantLevelUp from "../assets/ThePlayerThatCantLevelUp.jpg"
 import NanatsuNoTaizai from "../assets/Nanatsu No Taizai.jpg"
 import Solo_Leveling from "../assets/Solo Leveling.png"
 
@@ -97,54 +102,39 @@ const CardMangaData = [
         Genres :	"Action - Comedy - Fantasy - Webtoons",
     },
     {
-        //img : Through_My_Window,
+        img : The_Advanced_Player_of_the_Tutorial_Tower,
         title : "The Tutorial Tower's Advanced Player",
         Author :	"방구석김씨 - 오마감",
         Status :	"Ongoing",
         Genres :	"Action - Adventure - Fantasy",
     },
     {
-        //img : Through_My_Window,
+        img : ThePlayerThatCantLevelUp,
         title : "The Player That Can't Level Up",
         Author :	"Gavinge - Parrot Kim - Park Jungjae - Parrot Kim - Studio Khit",
         Status :	"Ongoing",
         Genres :	"Action - Adventure - Fantasy - Mystery - Manhwa",
     },
     {
-        //img : Through_My_Window,
+        img : MurimLogin,
         title : "Murim Login",
         Author :	"원작 제로빅",
         Status :	"Ongoing",
         Genres :	"Action",
     },
     {
-        //img : Through_My_Window,
-        title : "Naruto",
-        Author :	"Kishimoto Masashi",
-        Status :	"Completed",
-        Genres :	"Action - Adventure - Comedy - Doujinshi - Drama - Fantasy - Martial arts - Shounen",
-    },
-    {
-        //img : Through_My_Window,
+        img : DoctorSRebirth,
         title : "Doctor’S Rebirth",
         Author :	"Taesun Dobin",
         Status :	"Ongoing",
         Genres :	"Action - Fantasy - Medical - Isekai",
     },
     {
-        //img : Through_My_Window,
+        img : HunterXHunterManga,
         title : "Hunter X Hunter",
         Author :	"Togashi Yoshihiro",
         Status :	"Ongoing",
         Genres :	"Action - Adventure - Drama - Fantasy - Psychological - Shounen - Supernatural - Tragedy",
     },
-    {
-        //img : Through_My_Window,
-        title : "",
-        Author :	"",
-        Status :	"",
-        Genres :	"",
-    },
-
 ];
 export default CardMangaData;
