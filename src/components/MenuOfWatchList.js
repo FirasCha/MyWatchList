@@ -5,10 +5,9 @@ import MyWatchListMainPage from '../assets/MyWatchListMainPage.jpeg'
 import TvShowMainPage from '../assets/TvShowMainPage.webp'
 import GamesMainPage from '../assets/GamesMainPage.jpg'
 import Carousel from 'react-bootstrap/Carousel';
-import dataManga from './CardMangaData'
 import { Container } from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
 import MyAnimeMenuOfWatchList from './MyAnimeMenuOfWatchList';
+import MyMangaMenuOfWatchList from './MyMangaMenuOfWatchList';
 
 const MenuOfWatchList = () => {
 
@@ -20,12 +19,7 @@ const MenuOfWatchList = () => {
   // const StartIndiceOfMovie4 = Math.floor(Math.random()*dataMovie.length)
   // const StartIndiceOfMovie5 = Math.floor(Math.random()*dataMovie.length)
 
-  const StartIndiceOfManga0 = Math.floor(Math.random()*dataManga.length)
-  const StartIndiceOfManga1 = Math.floor(Math.random()*dataManga.length)
-  const StartIndiceOfManga2 = Math.floor(Math.random()*dataManga.length)
-  const StartIndiceOfManga3 = Math.floor(Math.random()*dataManga.length)
-  const StartIndiceOfManga4 = Math.floor(Math.random()*dataManga.length)
-  const StartIndiceOfManga5 = Math.floor(Math.random()*dataManga.length)
+  
   return (
     <div>
       <NavBarMenu/>   
@@ -58,45 +52,7 @@ const MenuOfWatchList = () => {
         <br/>  
         <MyAnimeMenuOfWatchList/>
         <br/>
-        <Card className="text-center">
-          <Card.Header><h5>My Manga</h5></Card.Header>
-          <Card.Body>
-            <Card.Text>
-              <div style={{textAlign:'center'}} className='row justify-content-center'>
-                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
-                  <div className='card p-0 overflow-hidden h-100 shadow'>
-                    <img src={dataManga[StartIndiceOfManga0].img} alt="" className='card-img-top'/>
-                  </div> 
-                </div>
-                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
-                  <div className='card p-0 overflow-hidden h-100 shadow'>
-                    <img src={dataManga[StartIndiceOfManga1].img} alt="" className='card-img-top'/>
-                  </div> 
-                </div>
-                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
-                  <div className='card p-0 overflow-hidden h-100 shadow'>
-                    <img src={dataManga[StartIndiceOfManga2].img} alt="" className='card-img-top'/>
-                  </div> 
-                </div>
-                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
-                  <div className='card p-0 overflow-hidden h-100 shadow'>
-                    <img src={dataManga[StartIndiceOfManga3].img} alt="" className='card-img-top'/>
-                  </div> 
-                </div>
-                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
-                  <div className='card p-0 overflow-hidden h-100 shadow'>
-                    <img src={dataManga[StartIndiceOfManga4].img} alt="" className='card-img-top'/>
-                  </div> 
-                </div>
-                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
-                  <div className='card p-0 overflow-hidden h-100 shadow'>
-                    <img src={dataManga[StartIndiceOfManga5].img} alt="" className='card-img-top'/>
-                  </div> 
-                </div>                
-              </div>
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <MyMangaMenuOfWatchList/>
         <br/>
       </Container>
       <FooterWatchList/>     
