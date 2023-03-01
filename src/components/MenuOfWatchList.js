@@ -6,19 +6,13 @@ import TvShowMainPage from '../assets/TvShowMainPage.webp'
 import GamesMainPage from '../assets/GamesMainPage.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 import dataAnime from './CardAnimeData'
+import { Container } from 'react-bootstrap';
 
 const MenuOfWatchList = () => {
-  const test = Math.floor(Math.random()*dataAnime.length)
-  console.log(dataAnime[Math.floor(Math.random()*dataAnime.length)])
-  console.log(dataAnime[Math.floor(Math.random()*dataAnime.length)])
-  console.log(dataAnime[Math.floor(Math.random()*dataAnime.length)])
-
+  const StartIndiceOfAnime = Math.floor(Math.random()*dataAnime.length)
   return (
     <div>
       <NavBarMenu/>   
-      {/* <div>
-        <img src={TvShowImage} class="img-fluid" alt="Responsive image"/>
-      </div>   */}
       <Carousel>
         <Carousel.Item interval={1000}>
           <img
@@ -44,22 +38,35 @@ const MenuOfWatchList = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <br/>
-      <h5 className='card-title'>My Animes</h5>
-      <div style={{textAlign:'center'}} className='row justify-content-center'>
-                {dataAnime
-                .slice(test,test+6)
-                .map((item,index)=>{
-                    return(
-                        <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5' key={index}>
-                            <div className='card p-0 overflow-hidden h-100 shadow'>
-                                <img src={item.img} alt="" className='card-img-top'/>
-                            </div>
-                            
-                        </div>
-                    )
-                })}
+      <Container className='container-fluid'>
+      <br/>  
+      <div>
+        <div
+          style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}
+        >
+          <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
+          <div>
+            <h5 className='card-title' style={{width: '70px', textAlign: 'center'}}>My Animes</h5>
+          </div>
+          <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
         </div>
+      </div>
+      <br/>
+        <div style={{textAlign:'center'}} className='row justify-content-center'>
+                  {dataAnime
+                  .slice(StartIndiceOfAnime,StartIndiceOfAnime+6)
+                  .map((item,index)=>{
+                      return(
+                          <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5' key={index}>
+                              <div className='card p-0 overflow-hidden h-100 shadow'>
+                                  <img src={item.img} alt="" className='card-img-top'/>
+                              </div>
+                              
+                          </div>
+                      )
+                  })}
+        </div>
+      </Container>
       <FooterWatchList/>     
     </div>        
   )
