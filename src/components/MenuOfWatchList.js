@@ -5,14 +5,27 @@ import MyWatchListMainPage from '../assets/MyWatchListMainPage.jpeg'
 import TvShowMainPage from '../assets/TvShowMainPage.webp'
 import GamesMainPage from '../assets/GamesMainPage.jpg'
 import Carousel from 'react-bootstrap/Carousel';
-import dataAnime from './CardAnimeData'
 import dataManga from './CardMangaData'
 import { Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
+import MyAnimeMenuOfWatchList from './MyAnimeMenuOfWatchList';
 
 const MenuOfWatchList = () => {
-  const StartIndiceOfAnime = Math.floor(Math.random()*dataAnime.length)
-  const StartIndiceOfManga = Math.floor(Math.random()*dataManga.length)
+
+  
+  // const StartIndiceOfMovie0 = Math.floor(Math.random()*dataMovie.length)
+  // const StartIndiceOfMovie1 = Math.floor(Math.random()*dataMovie.length)
+  // const StartIndiceOfMovie2 = Math.floor(Math.random()*dataMovie.length)
+  // const StartIndiceOfMovie3 = Math.floor(Math.random()*dataMovie.length)
+  // const StartIndiceOfMovie4 = Math.floor(Math.random()*dataMovie.length)
+  // const StartIndiceOfMovie5 = Math.floor(Math.random()*dataMovie.length)
+
+  const StartIndiceOfManga0 = Math.floor(Math.random()*dataManga.length)
+  const StartIndiceOfManga1 = Math.floor(Math.random()*dataManga.length)
+  const StartIndiceOfManga2 = Math.floor(Math.random()*dataManga.length)
+  const StartIndiceOfManga3 = Math.floor(Math.random()*dataManga.length)
+  const StartIndiceOfManga4 = Math.floor(Math.random()*dataManga.length)
+  const StartIndiceOfManga5 = Math.floor(Math.random()*dataManga.length)
   return (
     <div>
       <NavBarMenu/>   
@@ -42,57 +55,49 @@ const MenuOfWatchList = () => {
         </Carousel.Item>
       </Carousel>
       <Container className='container-fluid'>
-      <br/>  
-      <div>
-        <div>
-          <div
-            style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}
-          >
-            <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
-            <div>
-              <h5 className='card-title' style={{width: '70px', textAlign: 'center'}}>My Animes</h5>
-            </div>
-            <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
-          </div>
-        </div>
+        <br/>  
+        <MyAnimeMenuOfWatchList/>
         <br/>
-        <div style={{textAlign:'center'}} className='row justify-content-center'>
-                    {dataAnime
-                    .slice(StartIndiceOfAnime,StartIndiceOfAnime+6)
-                    .map((item,index)=>{
-                        return(
-                            <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5' key={index}>
-                                <div className='card p-0 overflow-hidden h-100 shadow'>
-                                    <img src={item.img} alt="" className='card-img-top'/>
-                                </div>
-                                
-                            </div>
-                        )
-                    })}
-         </div>
-      </div>
-      <Card className="text-center">
-        <Card.Header><h5>My Manga</h5></Card.Header>
-        <Card.Body>
-          <Card.Text>
-          <div style={{textAlign:'center'}} className='row justify-content-center'>
-                    {dataManga
-                    .slice(StartIndiceOfManga,StartIndiceOfManga+6)
-                    .map((item,index)=>{
-                        return(
-                            <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5' key={index}>
-                                <div className='card p-0 overflow-hidden h-100 shadow'>
-                                    <img src={item.img} alt="" className='card-img-top'/>
-                                </div>
-                                
-                            </div>
-                        )
-                    })}
-         </div>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <br/>
+        <Card className="text-center">
+          <Card.Header><h5>My Manga</h5></Card.Header>
+          <Card.Body>
+            <Card.Text>
+              <div style={{textAlign:'center'}} className='row justify-content-center'>
+                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
+                  <div className='card p-0 overflow-hidden h-100 shadow'>
+                    <img src={dataManga[StartIndiceOfManga0].img} alt="" className='card-img-top'/>
+                  </div> 
+                </div>
+                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
+                  <div className='card p-0 overflow-hidden h-100 shadow'>
+                    <img src={dataManga[StartIndiceOfManga1].img} alt="" className='card-img-top'/>
+                  </div> 
+                </div>
+                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
+                  <div className='card p-0 overflow-hidden h-100 shadow'>
+                    <img src={dataManga[StartIndiceOfManga2].img} alt="" className='card-img-top'/>
+                  </div> 
+                </div>
+                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
+                  <div className='card p-0 overflow-hidden h-100 shadow'>
+                    <img src={dataManga[StartIndiceOfManga3].img} alt="" className='card-img-top'/>
+                  </div> 
+                </div>
+                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
+                  <div className='card p-0 overflow-hidden h-100 shadow'>
+                    <img src={dataManga[StartIndiceOfManga4].img} alt="" className='card-img-top'/>
+                  </div> 
+                </div>
+                <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
+                  <div className='card p-0 overflow-hidden h-100 shadow'>
+                    <img src={dataManga[StartIndiceOfManga5].img} alt="" className='card-img-top'/>
+                  </div> 
+                </div>                
+              </div>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <br/>
       </Container>
       <FooterWatchList/>     
     </div>        
