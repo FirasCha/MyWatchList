@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 import MyAnimeMenuOfWatchList from './MyAnimeMenuOfWatchList';
 import MyMangaMenuOfWatchList from './MyMangaMenuOfWatchList';
 import CarouselOfPicturesMenu from './CarouselOfPicturesMenu';
+import MoviesMenuOfWatchList from './MoviesMenuOfWatchList';
 
 const MenuOfWatchList = () => {
 
@@ -26,6 +27,8 @@ const MenuOfWatchList = () => {
         <MyAnimeMenuOfWatchList/>
         <br/>
         <MyMangaMenuOfWatchList/>
+        <br/>
+        <MoviesMenuOfWatchList/>
         <br/>
       </Container>
       <FooterWatchList/>     
