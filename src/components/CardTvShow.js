@@ -11,26 +11,27 @@ const CardTvShow = () => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const [ movieName, setmovieName ] = useState();
+    const TVShowLength = dataTvShow.length
+    let i=0;
+    let TvShowListSelected = [];
+    const slice = dataTvShow.slice(0,noOfElement);
 
     const loadMore = () => {
         setnoOfElement(noOfElement+5);
     }
-    const slice = dataTvShow.slice(0,noOfElement);
     const handleShow =  (e, data) => {
         setShow(true);
         setmovieName (e.target.dataset.user)
     }
-    const TVShowLength = dataTvShow.length
-    let i=0;
     while(i<TVShowLength)
     {
         if(dataTvShow[i].title === movieName)
         {
-            console.log(dataTvShow[i])
+            TvShowListSelected.push(dataTvShow[i])
         }
         i++
     }
-    
+    console.log(TvShowListSelected[0])
     
   return (
     <div>
@@ -62,9 +63,14 @@ const CardTvShow = () => {
                                             <Modal.Header closeButton>
                                                 <Modal.Title>{movieName}</Modal.Title>
                                             </Modal.Header>
-                                            <Modal.Body>
-                                                {item.title}
-                                            </Modal.Body>
+                                            {
+                                                TvShowListSelected.map((it,ind)=>{
+                                                    return <Modal.Body key={ind}>
+                                                                {it.title}
+                                                            </Modal.Body>
+                                                })
+                                            }
+                                            
                                     </Modal>
                                 </div>
                             </div>
