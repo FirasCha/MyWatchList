@@ -23,8 +23,13 @@ const CardTvShowData = [
         max_season : "4 seasons",
         new_season : "2 Juin",
         progress_value : "100" ,
-        progress_value : "100" ,
-     },
+        creator : "Jeff Rake",
+        storyline : "When Montego Air Flight 828 landed safely after a turbulent but routine flight, the crew and passengers were relieved. But in the span of those few hours, the world had aged five years - and their friends, families and colleagues, after mourning their loss, had given up hope and moved on. Now, faced with the impossible, they're all given a second chance. But as their new realities become clear, a deeper mystery unfolds and some of the returned passengers soon realize they may be meant for something greater than they ever thought possible.",
+        Genres : "Drama - Mystery - Sci-Fi - Thriller",
+        Release_date : "September 24, 2018 (United States)",
+        Country_of_origin :  "United States",
+
+      },
      {
         img : sex_education,
         title : "Sex education",

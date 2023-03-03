@@ -5,6 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 import NavBarMenu from './NavBarMenu';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import FooterWatchList from './FooterWatchList';
+import { ModalBody } from 'react-bootstrap';
 
 const CardTvShow = () => {
     const [ noOfElement, setnoOfElement ] = useState(7);
@@ -12,7 +13,6 @@ const CardTvShow = () => {
     const handleClose = () => setShow(false);
     const [ movieName, setmovieName ] = useState();
     const TVShowLength = dataTvShow.length
-    let i=0;
     let TvShowListSelected = [];
     const slice = dataTvShow.slice(0,noOfElement);
 
@@ -23,6 +23,7 @@ const CardTvShow = () => {
         setShow(true);
         setmovieName (e.target.dataset.user)
     }
+    let i=0;
     while(i<TVShowLength)
     {
         if(dataTvShow[i].title === movieName)
@@ -31,7 +32,6 @@ const CardTvShow = () => {
         }
         i++
     }
-    console.log(TvShowListSelected[0])
     
   return (
     <div>
@@ -55,22 +55,35 @@ const CardTvShow = () => {
                                     </Button>
                                     <Modal
                                         show={show}
+                                        size="lg"
                                         onHide={handleClose}
                                         backdrop="static"
                                         keyboard={true}
                                         centered={true}
                                     >
-                                            <Modal.Header closeButton>
-                                                <Modal.Title>{movieName}</Modal.Title>
-                                            </Modal.Header>
+                                            
                                             {
                                                 TvShowListSelected.map((it,ind)=>{
-                                                    return <Modal.Body key={ind}>
-                                                                {it.title}
+                                                    return (<div key={ind}>
+                                                            <Modal.Header closeButton>
+                                                                <Modal.Title>{it.title}</Modal.Title>
+                                                            </Modal.Header>
+                                                            <Modal.Body >
+                                                                <img src={it.img} alt="" className='card-img-top'/>
                                                             </Modal.Body>
+                                                            <Modal.Body >
+                                                                <h4>Storyline : </h4>
+                                                                <p>{it.storyline}</p>
+                                                            </Modal.Body>
+                                                            <ModalBody>
+                                                                <h6>Genres : </h6> {it.Genres}
+                                                                <h6>Release Date : </h6>{it.Release_date}
+                                                                <h6>Country of origin : </h6>{it.Country_of_origin}
+                                                            </ModalBody>
+                                                            </div>
+                                                            )
                                                 })
                                             }
-                                            
                                     </Modal>
                                 </div>
                             </div>
