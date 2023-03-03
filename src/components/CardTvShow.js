@@ -8,21 +8,30 @@ import FooterWatchList from './FooterWatchList';
 
 const CardTvShow = () => {
     const [ noOfElement, setnoOfElement ] = useState(7);
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const [ movieName, setmovieName ] = useState();
+
     const loadMore = () => {
         setnoOfElement(noOfElement+5);
     }
     const slice = dataTvShow.slice(0,noOfElement);
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const [ movieName, setmovieName ] = useState();
     const handleShow =  (e, data) => {
         setShow(true);
-        //console.log(e.target.dataset.user)
         setmovieName (e.target.dataset.user)
-        //console.log(event.currentTarget.dataTvShow);
-        //console.log(ref.current.Title);
     }
-    console.log(movieName)
+    const TVShowLength = dataTvShow.length
+    let i=0;
+    while(i<TVShowLength)
+    {
+        if(dataTvShow[i].title === movieName)
+        {
+            console.log(dataTvShow[i])
+        }
+        i++
+    }
+    
+    
   return (
     <div>
         <NavBarMenu/>
@@ -39,7 +48,6 @@ const CardTvShow = () => {
                                     <p className='card-text'>Seasons : {item.max_season}</p>
                                     <p className='card-text'>New seasons : {item.new_season}</p>
                                     <ProgressBar animated  now={item.progress_value} label={`${item.progress_value}%`}/>
-                                    
                                     <br/>
                                     <Button variant="outline-dark" data-user={item.title} onClick={handleShow}>
                                         More Details
@@ -50,14 +58,14 @@ const CardTvShow = () => {
                                         backdrop="static"
                                         keyboard={true}
                                         centered={true}
-                                        >
+                                    >
                                             <Modal.Header closeButton>
                                                 <Modal.Title>{movieName}</Modal.Title>
                                             </Modal.Header>
                                             <Modal.Body>
                                                 {item.title}
                                             </Modal.Body>
-                                        </Modal>
+                                    </Modal>
                                 </div>
                             </div>
                         </div>
