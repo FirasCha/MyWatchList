@@ -3,19 +3,27 @@ import dataMovie from './CardMovieData'
 import Card from 'react-bootstrap/Card';
 
 const MoviesMenuOfWatchList = () => {
-    // const StartIndiceOfMovie0 = Math.floor(Math.random()*dataMovie.length)
-    // var StartIndiceOfMovie1 = Math.floor(Math.random()*dataMovie.length)
-    // var StartIndiceOfMovie2 = Math.floor(Math.random()*dataMovie.length)
-    // var StartIndiceOfMovie3 = Math.floor(Math.random()*dataMovie.length)
-    // var StartIndiceOfMovie4 = Math.floor(Math.random()*dataMovie.length)
-    // var StartIndiceOfMovie5 = Math.floor(Math.random()*dataMovie.length)
-    let movieList = [];
     let StartIndiceOfMovie;
-    for (let i = 0; i<=5; i++){
+    let compareMoviesIndiceList = []; 
+    for(let i = 0; i<=5; i++){
       StartIndiceOfMovie = Math.floor(Math.random()*dataMovie.length);
-      movieList.push(dataMovie[StartIndiceOfMovie].img)
+      compareMoviesIndiceList.push(StartIndiceOfMovie);
     }
-    console.log(movieList)
+    //No duplicate element  
+    for(let i = 0; i<=5; i++) {  
+      for(let j = i+1; j<=5; j++) {  
+          if(compareMoviesIndiceList[i] === compareMoviesIndiceList[j])  
+              {
+                compareMoviesIndiceList[j]=Math.floor(Math.random()*dataMovie.length);
+              }  
+          }  
+       }  
+    /**Input the elements */
+    let movieList = [];
+    for (let i = 0; i<=5; i++){
+      let j=compareMoviesIndiceList[i]
+      movieList.push(dataMovie[j].img);
+    }
   return (
     <Card className="text-center">
     <Card.Header><h5>My Movies</h5></Card.Header>
