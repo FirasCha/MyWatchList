@@ -12,13 +12,17 @@ const CardTvShow = () => {
         setnoOfElement(noOfElement+5);
     }
     const slice = dataTvShow.slice(0,noOfElement);
-
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
-    const handleShow = () => {
+    const [ movieName, setmovieName ] = useState();
+    const handleShow =  (e, data) => {
         setShow(true);
+        //console.log(e.target.dataset.user)
+        setmovieName (e.target.dataset.user)
+        //console.log(event.currentTarget.dataTvShow);
+        //console.log(ref.current.Title);
     }
+    console.log(movieName)
   return (
     <div>
         <NavBarMenu/>
@@ -35,8 +39,9 @@ const CardTvShow = () => {
                                     <p className='card-text'>Seasons : {item.max_season}</p>
                                     <p className='card-text'>New seasons : {item.new_season}</p>
                                     <ProgressBar animated  now={item.progress_value} label={`${item.progress_value}%`}/>
+                                    
                                     <br/>
-                                    <Button variant="outline-dark" onClick={handleShow}>
+                                    <Button variant="outline-dark" data-user={item.title} onClick={handleShow}>
                                         More Details
                                     </Button>
                                     <Modal
@@ -46,16 +51,15 @@ const CardTvShow = () => {
                                         keyboard={true}
                                         centered={true}
                                         >
-                                        <Modal.Header closeButton>
-                                            <Modal.Title>{item.title}</Modal.Title>
-                                        </Modal.Header>
-                                        <Modal.Body>
-                                            {item.title}
-                                        </Modal.Body>
-                                    </Modal>
+                                            <Modal.Header closeButton>
+                                                <Modal.Title>{movieName}</Modal.Title>
+                                            </Modal.Header>
+                                            <Modal.Body>
+                                                {item.title}
+                                            </Modal.Body>
+                                        </Modal>
                                 </div>
                             </div>
-                            
                         </div>
                     )
                 })}
