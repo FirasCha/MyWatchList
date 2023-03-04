@@ -5,7 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 import NavBarMenu from './NavBarMenu';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import FooterWatchList from './FooterWatchList';
-import { ModalBody } from 'react-bootstrap';
+import { ModalBody, ModalFooter } from 'react-bootstrap';
 
 const CardTvShow = () => {
     const [ noOfElement, setnoOfElement ] = useState(7);
@@ -61,7 +61,7 @@ const CardTvShow = () => {
                                         keyboard={true}
                                         centered={true}
                                         fullscreen="lg-down"
-                                        scrollable={false}
+                                        
                                     >
                                             
                                             {
@@ -77,11 +77,14 @@ const CardTvShow = () => {
                                                                 <h4>Storyline : </h4>
                                                                 <p>{it.storyline}</p>
                                                             </Modal.Body>
-                                                            <ModalBody >
+                                                            <ModalBody scrollable={false}>
                                                                 <h6>Genres : </h6> {it.Genres}
-                                                                <h6>Release Date : </h6>{it.Release_date}
+                                                                <h6>Release Date : </h6>{it.Release_date}<br/>
                                                                 <h6>Country of origin : </h6>{it.Country_of_origin}
                                                             </ModalBody>
+                                                            <ModalFooter>
+                                                                {it.progress}
+                                                            </ModalFooter>
                                                             </div>
                                                             )
                                                 })
