@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import NavBarMenu from './NavBarMenu';
 import FooterWatchList from './FooterWatchList';
 import dataManga from './CardMangaData'
-
+import Form from 'react-bootstrap/Form';
 
 const CardManga = () => {
     const [ noOfElement, setnoOfElement ] = useState(7);
@@ -28,16 +28,12 @@ const CardManga = () => {
     <div>
         <NavBarMenu/>
         <section className='capy-4 container'>
-            <select defaultValue={'DEFAULT'} onChange={(e) => setSortState(e.target.value)}>
-                <option value="DEFAULT" disabled></option>
+            <Form.Select  defaultValue={'DEFAULT'} onChange={(e) => setSortState(e.target.value)}>
+                <option  value="DEFAULT" disabled>Select option</option>
                 <option value="SortA_ZName">Sort A-Z by Name</option>
                 <option value="SortZ_AName">Sort Z-A by Name</option>
-            </select>
-            <ul>
-                {ListSortNameManga.sort(sortMethods[sortState].method).map((el, i) => (
-                <li key={i}>{el.title}</li>
-                ))}
-            </ul>
+            </Form.Select>
+            <br/>
             <div style={{textAlign:'center'}} className='row justify-content-center'>
                 {slice.sort(sortMethods[sortState].method).map((item, index) =>{
                     return(
