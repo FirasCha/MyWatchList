@@ -60,6 +60,8 @@ const CardTvShow = () => {
                                         backdrop="static"
                                         keyboard={true}
                                         centered={true}
+                                        fullscreen="lg-down"
+                                        scrollable={false}
                                     >
                                             
                                             {
@@ -68,14 +70,14 @@ const CardTvShow = () => {
                                                             <Modal.Header closeButton>
                                                                 <Modal.Title>{it.title}</Modal.Title>
                                                             </Modal.Header>
-                                                            <Modal.Body >
+                                                            <Modal.Body>
                                                                 <img src={it.img} alt="" className='card-img-top'/>
                                                             </Modal.Body>
                                                             <Modal.Body >
                                                                 <h4>Storyline : </h4>
                                                                 <p>{it.storyline}</p>
                                                             </Modal.Body>
-                                                            <ModalBody>
+                                                            <ModalBody >
                                                                 <h6>Genres : </h6> {it.Genres}
                                                                 <h6>Release Date : </h6>{it.Release_date}
                                                                 <h6>Country of origin : </h6>{it.Country_of_origin}
