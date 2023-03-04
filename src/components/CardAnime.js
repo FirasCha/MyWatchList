@@ -59,8 +59,9 @@ const CardAnime = () => {
         <Form>
           <InputGroup className='my-3'>
             <Form.Control
-              onChange={(e) => setSearch(e.target.value)}
-              placeholder='Search Anime'
+                type='search'
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder='Search Anime'
             />
           </InputGroup>
         </Form>
