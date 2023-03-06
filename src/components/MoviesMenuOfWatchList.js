@@ -29,21 +29,19 @@ const MoviesMenuOfWatchList = () => {
     /**Flip Card */
     var nameOfMovie = ""
     let ListnameOfMovie = []
-    let ListUrlMovie = []
     const flip= (e) => {
-      ListUrlMovie.push(e.target.dataset.user)
-      console.log(ListUrlMovie)
       let i=0;
       while(i<dataMovie.length)
       {
-        if(dataMovie[i].img === ListUrlMovie[0])
+        nameOfMovie = ""
+        if(dataMovie[i].img === e.target.dataset.user)
         {
           nameOfMovie = nameOfMovie + dataMovie[i].title
+          console.log(nameOfMovie)
         }
         i++
       }
       ListnameOfMovie.push(nameOfMovie);
-      console.log(ListnameOfMovie[0])
     }
 
     console.log("Name ",nameOfMovie)
@@ -60,27 +58,27 @@ const MoviesMenuOfWatchList = () => {
           </div>
           <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
             <div className='card p-0 overflow-hidden h-100 shadow'>
-              <img src={movieList[1]} alt="" className='card-img-top'/>
+              <img src={movieList[1]} alt="" className='card-img-top' data-user={movieList[1]} onClick={flip}/>
             </div> 
           </div>
           <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
             <div className='card p-0 overflow-hidden h-100 shadow'>
-              <img src={movieList[2]} alt="" className='card-img-top'/>
+              <img src={movieList[2]} alt="" className='card-img-top' data-user={movieList[2]} onClick={flip}/>
             </div> 
           </div>
           <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
             <div className='card p-0 overflow-hidden h-100 shadow'>
-              <img src={movieList[3]} alt="" className='card-img-top'/>
+              <img src={movieList[3]} alt="" className='card-img-top' data-user={movieList[3]} onClick={flip}/>
             </div> 
           </div>
           <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
             <div className='card p-0 overflow-hidden h-100 shadow'>
-              <img src={movieList[4]} alt="" className='card-img-top'/>
+              <img src={movieList[4]} alt="" className='card-img-top' data-user={movieList[4]} onClick={flip}/>
             </div> 
           </div>
           <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
             <div className='card p-0 overflow-hidden h-100 shadow'>
-              <img src={movieList[5]} alt="" className='card-img-top'/>
+              <img src={movieList[5]} alt="" className='card-img-top' data-user={movieList[5]} onClick={flip}/>
             </div> 
           </div>                
         </div>
