@@ -3,7 +3,10 @@ import React from 'react'
 const MovieInfo = (props) => {
   return (
     <div>
-        {props.name}
+      <img src={props.PictureOfMovie} alt="" className='card-img-top'/>
+       <div>{props.name}</div> 
+       <div>Rleased Date : {props.ReleasedDate}</div> 
+       <div>Duration of the movie : {props.DurationOfMovie}</div> 
     </div>
   )
 }

@@ -25,7 +25,6 @@ const CardMovie = () => {
         }
         i++;
     }
-    console.log(ListMovieData[0])
   return (
     <div>
         <NavBarMenu/>
@@ -33,7 +32,10 @@ const CardMovie = () => {
             {movieName?(
 
             <MovieInfo 
+                PictureOfMovie={ListMovieData[0].img}
                 name={ListMovieData[0].title} 
+                ReleasedDate={ListMovieData[0].Released_Year}
+                DurationOfMovie={ListMovieData[0].duration}
             /> 
             ):(
             <>
