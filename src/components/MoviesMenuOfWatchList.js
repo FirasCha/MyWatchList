@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import dataMovie from './CardMovieData'
 import Card from 'react-bootstrap/Card';
 
@@ -20,10 +20,33 @@ const MoviesMenuOfWatchList = () => {
        }  
     /**Input the elements */
     let movieList = [];
+    let movieListName = []
     for (let i = 0; i<=5; i++){
       let j=compareMoviesIndiceList[i]
       movieList.push(dataMovie[j].img);
+      movieListName.push(dataMovie[j].title);
     }
+    /**Flip Card */
+    var nameOfMovie = ""
+    let ListnameOfMovie = []
+    let ListUrlMovie = []
+    const flip= (e) => {
+      ListUrlMovie.push(e.target.dataset.user)
+      console.log(ListUrlMovie)
+      let i=0;
+      while(i<dataMovie.length)
+      {
+        if(dataMovie[i].img === ListUrlMovie[0])
+        {
+          nameOfMovie = nameOfMovie + dataMovie[i].title
+        }
+        i++
+      }
+      ListnameOfMovie.push(nameOfMovie);
+      console.log(ListnameOfMovie[0])
+    }
+
+    console.log("Name ",nameOfMovie)
   return (
     <Card className="text-center">
     <Card.Header><h5>My Movies</h5></Card.Header>
@@ -32,7 +55,7 @@ const MoviesMenuOfWatchList = () => {
         <div style={{textAlign:'center'}} className='row justify-content-center'>
           <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
             <div className='card p-0 overflow-hidden h-100 shadow'>
-              <img src={movieList[0]} alt="" className='card-img-top'/>
+              <img src={movieList[0]} alt="" className='card-img-top' data-user={movieList[0]} onClick={flip}/>
             </div> 
           </div>
           <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
