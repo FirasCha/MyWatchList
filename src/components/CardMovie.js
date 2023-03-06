@@ -40,7 +40,7 @@ const CardMovie = () => {
             ):(
             <>
                 <div style={{textAlign:'center'}} className='row justify-content-center'>
-                {slice?.map((item,index)=>{
+                    {slice?.map((item,index)=>{
                         return(
                             <div className='col-11 col-md-6 col-lg-3 mx-0 mb-5' key={index}>
                                 <div className='card p-0 overflow-hidden h-100 shadow' >
