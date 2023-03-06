@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import dataMovie from './CardMovieData'
 import Card from 'react-bootstrap/Card';
 
@@ -28,7 +28,6 @@ const MoviesMenuOfWatchList = () => {
     }
     /**Flip Card */
     var nameOfMovie = ""
-    let ListnameOfMovie = []
     const flip= (e) => {
       let i=0;
       while(i<dataMovie.length)
@@ -41,10 +40,8 @@ const MoviesMenuOfWatchList = () => {
         }
         i++
       }
-      ListnameOfMovie.push(nameOfMovie);
     }
-
-    console.log("Name ",nameOfMovie)
+    console.log(nameOfMovie)
   return (
     <Card className="text-center">
     <Card.Header><h5>My Movies</h5></Card.Header>
@@ -78,7 +75,7 @@ const MoviesMenuOfWatchList = () => {
           </div>
           <div className='col-11 col-md-6 col-lg-2 mx-0 mb-5'>
             <div className='card p-0 overflow-hidden h-100 shadow'>
-              <img src={movieList[5]} alt="" className='card-img-top' data-user={movieList[5]} onClick={flip}/>
+              <img src={movieList[5]} alt="" className='card-img-top' data-user={movieList[5]} />
             </div> 
           </div>                
         </div>
